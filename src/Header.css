@@ -1,0 +1,61 @@
+.inline-code {
+  background-color: #cac8c8;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+
+  font-family: monospace;
+}
+
+.like {
+  cursor: pointer;
+  user-select: none;
+}
+
+.avatar {
+  font-size: 5em;
+  float: left;
+  padding: 0.5em;
+  margin: 0.25em;
+  border-radius: 0.2em;
+  border: 1px solid black;
+}
+
+input {
+  text-align: center;
+  line-height: 2em;
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.centered {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 3em;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients {
+  align-items: flex-end;
+}
+
+.client {
+  max-width: 7em;
+  max-height: 2em;
+  border: 1px solid black;
+  background-color: rgb(156, 187, 204);
+  border-radius: 0.2em;
+  padding: 0.25em;
+  margin-left: 1em;
+}
